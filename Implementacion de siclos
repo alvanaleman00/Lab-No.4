@@ -1,0 +1,19 @@
+function stup(){
+  createcanvas(5000,5000);
+  background(0,0,0) 
+}
+
+function draw () {
+  //FONDO RECUBIERTO
+  var Br = 10;
+  var Bg = map(mouseX,0,width,0,1500);
+  var Bb = map(mouseX,0,width,0,200);
+  background(Br,Bg,Bb);
+}
+
+  for(var i=0; i<=width; i+=30);{ 
+  for (var i=0; i<=height; i+=30);
+  fill(255);
+  noStroke();
+  ellipse(i,j,random(3,5));
+}
